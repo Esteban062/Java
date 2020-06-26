@@ -5,6 +5,8 @@
  */
 package repo2;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author quiro
@@ -16,6 +18,7 @@ public class Repo2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        JOptionPane.showMessageDialog(null, "Hola");
     }
     
 }
