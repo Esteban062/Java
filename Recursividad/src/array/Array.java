@@ -29,10 +29,8 @@ public class Array {
              prueba f = new prueba();
               f.mostrarArray(array, 0);
         }if(op==2){
-            for (int i=0;i<10;i++){
-           
-            
-        }
+            //
+           //
             
         }else {
             System.out.println("Gracias");
@@ -41,7 +39,8 @@ public class Array {
         
         
     }
+     }
    
    
    
-}
+
