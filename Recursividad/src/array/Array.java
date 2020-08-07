@@ -14,9 +14,10 @@ public class Array {
         Scanner teclado = new Scanner(System.in);
         int array[]=new int [10];
         int posicion=1;
-        int op = 0;
+        int op ;
        
       
+              
        
         for (int i=0;i<10;i++){
             System.out.println("Ingrese el numero en la posicion "+posicion);
@@ -25,6 +26,7 @@ public class Array {
         }
         
         System.out.print("Presione 1 para mostar el array o 2 para eliminarlo ");
+        op=teclado.nextInt();
         if (op==1){
              prueba f = new prueba();
               f.mostrarArray(array, 0);
